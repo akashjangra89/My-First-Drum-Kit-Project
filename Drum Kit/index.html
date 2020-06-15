@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <h1>Vanshika Drum Kit</h1>
+
+    <div class="keys">
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <span class="sound">Basic Rock</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="sound">Big Thwack</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Boom Chawk</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Openhat</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">Boom</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">Ride</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">Tom</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">Tink</span>
+        </div>
+        <div data-key="186" class="key">
+            <kbd>:</kbd>
+            <span class="sound">Tamba</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./sound/Basic_Rock_135.wav"></audio>
+    <audio data-key="83" src="./sound/Big_Thwack_120.wav"></audio>
+    <audio data-key="68" src="./sound/Boom_Chuk2_130.wav"></audio>
+    <audio data-key="70" src="./sound/Boom_Chuk_130.wav"></audio>
+    <audio data-key="71" src="./sound/Cymbal_Groove.wav"></audio>
+    <audio data-key="72" src="./sound/Driving_Force_120.wav"></audio>
+    <audio data-key="74" src="./sound/first_beat.wav"></audio>
+    <audio data-key="75" src="./sound/Pounder_130.wav"></audio>
+    <audio data-key="76" src="./sound/RatAtat_155.wav"></audio>
+    <audio data-key="186" src="./sound/Tamba_112.wav"></audio>
+
+    <script src="./drumJs/drum.js"></script>
+</body>
+
+</html>
